@@ -50,15 +50,15 @@ public class Employee {
 	}
 	public void toString(Employee employee) {
 		System.out.println("-----------------------");
-		System.out.println("Adý: "+this.name);
-		System.out.println("Maaþý: "+this.salary);
-		System.out.println("Çalýþma saati: "+this.workHours);
-		System.out.println("Baþlangýç yýlý: "+this.hireYear);
+		System.out.println("AdÄ±: "+this.name);
+		System.out.println("MaaÅŸÄ±: "+this.salary);
+		System.out.println("Ã‡alÄ±ÅŸma saati: "+this.workHours);
+		System.out.println("BaÅŸlangÄ±Ã§ yÄ±lÄ±: "+this.hireYear);
 		System.out.println("Vergi: "+employee.tax());
 		System.out.println("Bonus: "+employee.bonus());
-		System.out.println("Maaþ artýþý: "+employee.raiseSalary());
-		System.out.println("Vergi ve bonuslar ile maaþ: "+(salary-employee.tax()+employee.bonus()));
-		System.out.println("Toplam maaþ: "+(salary+employee.raiseSalary()-employee.tax()+employee.bonus()));
+		System.out.println("MaaÅŸ artÄ±ÅŸÄ±: "+employee.raiseSalary());
+		System.out.println("Vergi ve bonuslar ile maaÅŸ: "+(salary-employee.tax()+employee.bonus()));
+		System.out.println("Toplam maaÅŸ: "+(salary+employee.raiseSalary()-employee.tax()+employee.bonus()));
 	}
 
 	public String getName() {
