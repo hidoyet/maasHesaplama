@@ -7,18 +7,18 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Maaş hesaplama programı.");
+		System.out.println("MaaÅŸ hesaplama programÄ±.");
 		System.out.println("------------------------");
-		System.out.print("Personelin adını giriniz: ");
+		System.out.print("Personelin adÄ±nÄ± giriniz: ");
 		String name=sc.next();
 		
-		System.out.print("Personelin maaşını giriniz: ");
+		System.out.print("Personelin maaÅŸÄ±nÄ± giriniz: ");
 		double sal=sc.nextDouble();
 		
-		System.out.print("Personelin çalışma saatini  giriniz: ");
+		System.out.print("Personelin Ã§alÄ±ÅŸma saatini  giriniz: ");
 		int workHour=sc.nextInt();
 		
-		System.out.print("Personelin işe giriş yılını giriniz: ");
+		System.out.print("Personelin iÅŸe giriÅŸ yÄ±lÄ±nÄ± giriniz: ");
 		int hireYear=sc.nextInt();
 		
 		sc.close();
